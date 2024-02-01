@@ -1,12 +1,4 @@
-﻿// Console.WriteLine("Hello world");
-
-
-int value = 100;
-Console.WriteLine(value);
-
-double d = 5.55;
-char c = '!';
-bool b = true;
-Console.WriteLine(d);
-Console.WriteLine(c);
-Console.WriteLine(b);
+﻿//Напишите программу, которая принимает на вход трёхзначное целое число и на выходе показывает 
+//сумму первой и последней цифры этого числа. 456  =>  10 782  =>  9 918  =>  17
+int num = System.Console.Read();
+System.Console.WriteLine(num);

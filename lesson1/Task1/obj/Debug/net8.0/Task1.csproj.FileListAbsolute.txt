@@ -12,3 +12,4 @@ A:\обучение\C#\lesson1\Task1\obj\Debug\net8.0\refint\Task1.dll
 A:\обучение\C#\lesson1\Task1\obj\Debug\net8.0\Task1.pdb
 A:\обучение\C#\lesson1\Task1\obj\Debug\net8.0\Task1.genruntimeconfig.cache
 A:\обучение\C#\lesson1\Task1\obj\Debug\net8.0\ref\Task1.dll
+A:\обучение\C#\lesson1\Task1\obj\Debug\net8.0\Task1.sourcelink.json
