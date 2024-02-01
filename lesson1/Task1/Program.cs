@@ -1,4 +1,11 @@
-﻿//Напишите программу, которая принимает на вход трёхзначное целое число и на выходе показывает 
-//сумму первой и последней цифры этого числа. 456  =>  10 782  =>  9 918  =>  17
-int num = System.Console.Read();
-System.Console.WriteLine(num);
+﻿System.Console.WriteLine("Введите число");
+int n = int.Parse(Console.ReadLine()!);
+int n_new = Math.Abs(n);
+if (n_new % 7 == 0 && n_new % 23 == 0)
+{
+    System.Console.WriteLine($"Число {n} кратно 7 и 23 одновременно");
+}
+else
+{
+    System.Console.WriteLine($"Число {n}  не кратно 7 и 23 одновременно");
+}

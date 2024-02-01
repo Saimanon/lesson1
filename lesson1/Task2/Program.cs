@@ -1,32 +1,28 @@
-﻿using System;
-
-public class Answer {
-    static void PrintEvenNumbers(int number)
-    {
-      // Введите свое решение ниже
-      int check_num = 2;
-      while (check_num <= number)
-      {
-        Console.Write(check_num + " ");
-        check_num = check_num + 2;
-      }
-
-
-    }
-
-
-  // Не удаляйте и не меняйте метод Main! 
-    static public void Main(string[] args) {
-        int number;
-
-        if (args.Length >= 1) {
-            number = int.Parse(args[0]);
-        } else {
-           // Здесь вы можете поменять значения для отправки кода на Выполнение
-            number = 6;
-        }
-
-        // Не удаляйте строки ниже
-        PrintEvenNumbers(number);
-    }
+﻿System.Console.WriteLine("Введите число x");
+int x = int.Parse(Console.ReadLine()!);
+System.Console.WriteLine("Введите число y");
+int y = int.Parse(Console.ReadLine()!);
+while (x == 0 || y == 0)
+{   
+    System.Console.WriteLine($"Числа {x} и {y} не должны быть равны 0");
+    System.Console.WriteLine("Введите число x");
+    x = int.Parse(Console.ReadLine()!);
+    System.Console.WriteLine("Введите число y");
+    y = int.Parse(Console.ReadLine()!);
+}
+if (x > 0 && y > 0)
+{
+    System.Console.WriteLine("Точка находится в 1 четверти");
+}
+else if (x < 0 && y > 0)
+{
+    System.Console.WriteLine("Точка находится во 2 четверти");
+}
+else if (x < 0 && y < 0)
+{
+    System.Console.WriteLine("Точка находится в 3 четверти");
+}
+else
+{
+    System.Console.WriteLine("Точка находится в 4 четверти");
 }
